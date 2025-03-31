@@ -1,0 +1,40 @@
+.news-item {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  background: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.news-item h3 {
+  margin: 0 0 10px 0;
+  color: #333;
+}
+
+.news-item p {
+  margin: 0 0 15px 0;
+  color: #666;
+}
+
+.news-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.news-actions button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.news-actions button:first-child {
+  background: #4CAF50;
+  color: white;
+}
+
+.news-actions button:last-child {
+  background: #f44336;
+  color: white;
+}
